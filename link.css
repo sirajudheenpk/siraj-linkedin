@@ -1,0 +1,382 @@
+nav{
+    width: 100%;
+    height: 10%;
+    
+}
+img{
+    width:10%;
+    height:10%;
+    margin-left: 10%;
+    float: left;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin-left: 40%;
+    
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: rgb(99, 98, 98);
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  li a:hover {
+    color: black;
+  }
+
+  .vl {
+    border: 1px solid rgba(76, 77, 76, 0.816);
+    height: 38px;
+    margin-left: 68%;
+
+   display: inline-block;
+   
+  }
+  .buttonjoin{
+  background-color: white;
+  border: none;
+  color: rgb(6, 6, 6);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;  
+  }
+  .buttonjoin:hover{
+  background-color: #48494819;
+  border: none;
+  color: rgb(6, 6, 6);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 22px;
+  }
+  .buttonsign{
+    background-color: white;
+    border-color: rgba(0, 110, 255, 0.948);
+    border-radius: 22px;
+    color: rgba(0, 110, 255, 0.948);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+  }
+  .buttonsign:hover{
+    background-color: rgba(0, 110, 255, 0.134);
+    border-color: rgba(0, 110, 255, 0.948);
+    border-radius: 22px;
+    color: rgb(6, 6, 6);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+
+  }
+  .container{
+    display:grid;
+    
+   
+    grid-template-columns: 1fr 1fr;
+    
+  
+  }
+  .homeimg{
+    width:600px;
+    height:500px;
+    
+  }
+  p{
+    
+    text-align:left;
+    color: rgba(105, 8, 8, 0.588);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+  }
+  p1{
+    
+    text-align:left;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+  }
+  input[type=text]{
+    width: 70%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #6a6969;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text]:hover{
+    width: 70%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    
+    background-color: #48494809;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password]{
+    width: 70%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #6a6969;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password]:hover{
+    width: 70%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #48494809;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .fpw{
+    color:rgb(4, 131, 199);
+  }
+  .fpw:hover{
+  text-decoration: underline;
+  }
+  .btnsin{
+    background-color: rgba(0, 110, 255, 0.948);
+    border:none;
+    border-radius: 22px;
+    color:white;
+    width:70%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+  }
+  .btnsin:hover{
+    background-color: rgb(2, 97, 220);
+    border:none;
+    border-radius: 22px;
+    color:white;
+    width:70%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+  }
+  h5 {
+    width: 70%; 
+    text-align: center; 
+    border-bottom: 1px solid #6a6a6a9b; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h5 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+ .btnggl{
+  background-color: rgba(248, 249, 250, 0.948);
+    border-color:#6a6969b1;
+    border-radius: 22px;
+   
+    width:70%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px; 
+
+ }
+ .btnggl:hover{
+  background-color: #48494811;
+    border-color:#6a6969b1;
+    border-radius: 22px;
+   
+    width:70%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px; 
+
+ }
+ .dropdown{
+  background-color: transparent;
+  border-color:#6a6969b1;
+  
+ margin-left: 18%;
+ margin-top: 3%;
+  width:50%;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px; 
+ }
+  
+ .fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+a{
+  cursor:pointer;
+}
+button{
+  cursor: pointer;
+}
+.column {
+  float: left;
+  width:fit-content;
+  margin-left: 2%;
+}
+
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+.row{
+  margin-top: 1%;
+}
+.topicbtn{
+    
+      border-color:rgba(0, 0, 0, 0.553);
+      border-radius: 22px;
+     background-color:transparent ;
+      width:fit-content;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      
+      font-size: 16px; 
+  
+}
+.box{
+  width:100%;
+  background-color: #f5f1f1;
+  height: 100%;
+  padding-left: 200px;
+}
+.text1{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #b24020;
+    
+}
+.text2{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.25;
+    color: rgba(0, 0, 0, 0.9);
+}
+.button1{
+    display: flex;
+    min-height: 56px;
+    width: 408px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: rgba(24, 23, 23, 0.9);
+}
+.third{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.video{
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 170px;
+    float: left;
+}
+.frame{
+    width: 500px;
+    height: 300px;
+}
+.text3{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #b24020;
+    margin-top: 50%;
+    
+}
+.second{
+    width: 70%;
+    padding-left: 5%;   
+}
+.text4{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.25;
+    color: rgba(0, 0, 0, 0.9);
+}
+.img2{
+    width: 100%;
+    margin-left: 0%;
+}
+.site-footer
+{
+  background-color:#1c1c1d23;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.column {
+  float: left;
+  width:fit-content;
+  margin-left: 2%;
+}
+.fcolumn{
+  float: left;
+  width:20%;
+  
+}
+
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+.row{
+  margin-top: 1%;
+}
